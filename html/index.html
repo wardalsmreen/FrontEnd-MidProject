@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IEEE CS JU</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="/html/index.html">
-                    <img src="/media/CS_Logo_White.png" alt="#CS-JU">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="/media/logo.png" width="180">
                 </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+                </div>
             </div>
-            <ul>
-                <li><a href="#vision">Vision</a></li>
-                <li><a href="#goals">Goals</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
         </nav>
     </header>
     <main>
@@ -43,69 +51,107 @@
                 </p>
             </div>
         </section>
-        <section class="vision" id="vision">
-            <h2>Our Vision</h2>
-            <div class="vision-main">
-                <div class="vision-card">
-                    <h3>Change Community</h3>
-                    <p> 
-                        Transforming the community from simply attending events
-                        to a productive and aware society striving for development
-                        in both hard and soft skills.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Qualifying Students</h3>
-                    <p> 
-                        Equipping and qualifying students and connecting them to the job
-                        market through real-world applied projects and a deep, not superficial,
-                        technological culture.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Technology for Humanity</h3>
-                    <p> 
-                        Focusing on the human and social aspects, not just the academic,
-                        in accordance with the IEEE spirit of “Technology for Humanity”.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Opportunities</h3>
-                    <p> 
-                        Providing opportunities for all and creating a competitive internal
-                        environment that encourages excellence and innovation.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Active Members</h3>
-                    <p> 
-                        Increasing the number of active members, because our success is not
-                        measured by the number of registered members, but by the people who
-                        actively participate and contribute.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Partnerships</h3>
-                    <p> 
-                        Building partnerships with entities inside and outside the university
-                        to exchange expertise and provide members with new and diverse experiences.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Documenting</h3>
-                    <p> 
-                        Documenting all work and activities professionally and honestly and
-                        establishing a work system that ensures the team's continuity after
-                        our administration ends.
-                    </p>
-                </div>
-                <div class="vision-card">
-                    <h3>Transforming</h3>
-                    <p> 
-                        Transforming the community from simply attending events
-                        to a productive and aware society striving for development
-                        in both hard and soft skills.
-                    </p>
+        <section class="vision py-5" id="vision">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Vision</h2>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Change Community</h5>
+                                <p class="card-text">
+                                    Transforming the community from simply attending events
+                                    to a productive and aware society striving for development
+                                    in both hard and soft skills.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Qualifying Students</h5>
+                                <p class="card-text">
+                                    Equipping and qualifying students and connecting them to the job
+                                    market through real-world applied projects and a deep, not superficial,
+                                    technological culture.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Technology for Humanity</h5>
+                                <p class="card-text">
+                                    Focusing on the human and social aspects, not just the academic,
+                                    in accordance with the IEEE spirit of Technology for Humanity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Opportunities</h5>
+                                <p class="card-text">
+                                    Providing opportunities for all and creating a competitive internal
+                                    environment that encourages excellence and innovation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Active Members</h5>
+                                <p class="card-text">
+                                    Increasing the number of active members, because our success is not
+                                    measured by the number of registered members.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Partnerships</h5>
+                                <p class="card-text">
+                                    Building partnerships with entities inside and outside the university
+                                    to exchange expertise and provide members with new experiences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Documenting</h5>
+                                <p class="card-text">
+                                    Documenting all work and activities professionally and establishing
+                                    a system that ensures the team's continuity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card h-100 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Transforming</h5>
+                                <p class="card-text">
+                                    Transforming the community from simply attending events
+                                    to a productive and aware society striving for development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -120,81 +166,89 @@
                 </p>
             </div>
         </section>
-        <section class="team" id="team">
-            <h2>Our Team</h2>
-            <div class="team-main">
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/membersImageMan.jpg">
+        <section class="team py-5" id="team">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Team</h2>
+                <div class="row g-4 text-center">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/membersImageMan.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/ward-alsmreen-7aa456326/">
+                                <h5>Ward Alsmreen</h5>
+                            </a>
+                            <p>Chairman</p>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/ward-alsmreen-7aa456326/">
-                        <h3>Ward Alsmreen</h3>
-                    </a>
-                    <h4>Chairman</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/membersImageMan.jpg">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/membersImageMan.jpg" class="img-fluid">
+                            <a href="https://www.instagram.com/amerbshloul">
+                                <h5>Amer Shloul</h5>
+                            </a>
+                            <p>Vice Chair</p>
+                        </div>
                     </div>
-                    <a href="https://www.instagram.com/amerbshloul?igsh=MTNpN29iOWJhOTVoNg==">
-                        <h3>Amer Shloul</h3>
-                    </a>  
-                    <h4>Vice Chair</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/memberImage.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/memberImage.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/batoolah/">
+                                <h5>Batool Hayajneh</h5>
+                            </a>
+                            <p>Vice Chair</p>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/batoolah/">
-                        <h3>Batool Hayajneh</h3>
-                    </a>
-                    <h4>Vice Chair</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/memberImage.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/memberImage.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/baraa-alzoubi-65746a37b/">
+                                <h5>Baraa Alzoubi</h5>
+                            </a>
+                            <p>Secretary</p>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/baraa-alzoubi-65746a37b/">
-                        <h3>Baraa Alzoubi</h3>
-                    </a>
-                    <h4>Secretary</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/membersImageMan.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/membersImageMan.jpg" class="img-fluid">
+                            <a href="https://www.instagram.com/k_32mi">
+                                <h5>Rami Aldalalah</h5>
+                            </a>
+                            <p>Treasurer</p>
+                        </div>
                     </div>
-                    <a href="https://www.instagram.com/k_32mi?igsh=MW5hdXRmamtlM3c0Yg==">
-                        <h3>Rami Aldalalah</h3>
-                    </a>
-                    <h4>Treasurer</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/memberImage.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/memberImage.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/nadeen-al-homoud-10318b30a/">
+                                <h5>Nadeen Al-Hmoud</h5>
+                            </a>
+                            <p>Event Coordinator</p>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/nadeen-al-homoud-10318b30a/">
-                        <h3>Nadeen Al-Hmoud</h3>
-                    </a>
-                    <h4>Even Coordinator</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/membersImageMan.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/membersImageMan.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/itshabeeb/">
+                                <h5>Habeeb Momani</h5>
+                            </a>
+                            <p>Media Head</p>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/itshabeeb/">
-                        <h3>Habeeb Momani</h3>
-                    </a>
-                    <h4>Media Head</h4>
-                </div>
-                <div class="team-members">
-                    <div class="member-image">
-                        <img src="/media/membersImageMan.jpg">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-member">
+                            <img src="/media/membersImageMan.jpg" class="img-fluid">
+                            <a href="https://www.linkedin.com/in/suhaib-mohammed-telfah/">
+                                <h5>Suhaib Telfah</h5>
+                            </a>
+                            <p>Technical Lead</p>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/suhaib-mohammed-telfah/">
-                        <h3>Suhaib Telfah</h3>
-                    </a>
-                    <h4>Technical Lead</h4>
-                </div>
             </div>
         </section>
     </main>
@@ -220,5 +274,6 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
