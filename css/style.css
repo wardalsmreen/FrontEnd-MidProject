@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 90px;
+    background-color: #faa419;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 20%;
+    align-items: center; 
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #101115;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img{
+    width: 100px; 
+}
+.hero{
+    padding: 30px;
+    background-color: #2c1819;
+    color: #fde3cf;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero img{
+    width: 500px;
+}
+.hero-contant{
+    padding-right: 80px;
+}
+
+.vision{
+    padding: 150px 30px;
+    background-color: #faa419;
+    background: linear-gradient(to bottom, #faa419, #fde3cf6e);;
+    text-align: center;
+    align-items: center;
+}
+.vision h2{
+    color: #101115;
+    font-size: 50px;
+    text-shadow: 3px 3px 10px #fde3cf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vision-main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.vision-card{
+    background-color: #2c1819;
+    margin: 20px;
+    padding: 20px;
+    color: #fde3cf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vision-card h3{
+    color: #fde3cfa5;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.goals{
+    background-color: #fde3cf6e;
+    background: linear-gradient(to bottom, #fde3cf6e, #fde3cf2e);
+    padding: 130px 30px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.goals-contant{
+    background-color: #faa419;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 30px;
+    color: #101115e7;
+}
+.goals-contant h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 10px #fde3cf;
+}
+.goals-contant p{
+    color: #101115;
+    font-size: 18px;
+}
+
+.team{
+    background-color: #fde3cf2e;
+    padding: 200px 30px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team h2{
+    font-size: 50px;
+    color: #2c1819;
+    text-shadow: 3px 3px 10px #101115;
+}
+.team-main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.team-members{
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.team-members img{
+    width: 200px;
+    height: 250px;
+    border: 5px solid #faa419;
+    border-radius: 40px;
+}
+.team-members a{
+    text-decoration: none;
+    color: #2c1819;
+    font-size: 20px;
+}
+.team-members h4{
+    color: #faa419;
+    font-size: 18px;
+}
+footer{
+    background-color: #fde3cf;
+    padding: 50px 30px;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20%;
+}
+footer p{
+    color: #101115;
+    margin-left: 20px;
+    font-size: 18px;
+}
+footer ul a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+    color: #101115;
+}
